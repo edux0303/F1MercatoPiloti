@@ -8,6 +8,7 @@ class Constructor:
     name: str
     nationality: str
     oldest_driver_dob: datetime.date = None
+    punti: float = 0.0
 
     def __hash__(self):
         return hash(self.constructorId)
